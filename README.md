@@ -8,7 +8,7 @@ $ apt install git
 
 $ git clone https://github.com/DarkMennA/Lucinta_ddos
 
-$ cd lucita_ddos
+$ cd Lucita_ddos
 
 $ chmod +x pukul.py
 
