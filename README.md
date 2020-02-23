@@ -6,9 +6,9 @@ $ apt install python
 
 $ apt install git 
 
-$ git clone https://github.com/DarkMennA/Lucinta_ddos
+$ git clone https://github.com/DarkMennA/ZIE_ddos
 
-$ cd Lucita_ddos
+$ cd ZIE_ddos
 
 $ chmod +x pukul.py
 
