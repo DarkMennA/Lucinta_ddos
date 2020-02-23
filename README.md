@@ -1,4 +1,4 @@
-# Lucinta_ddos
+# ZIE_ddos
 
 $ apt update && apt upgrade
 
